@@ -1,0 +1,230 @@
+[[questions]]
+id = 1
+title = "Kennir tú teg mest heima"
+subtitle = ""
+[[questions.options]]
+text = "Við útsýni yvir Funningsfjørð, meðan tú arbeiðir við einum rørporti og lurta eftir útvarpinum"
+points = { haraldur = 2 }
+[[questions.options]]
+text = "Í smiðjuni við einari skrúvunøgl í hondini, trygdarbrillum í lummanum og lukti av olju í hárinum"
+points = { jens = 2 }
+[[questions.options]]
+text = "Millum durandi maskinur í teknikk-rúminum við einum mátiamboði í hondini"
+points = { katrin = 2 }
+[[questions.options]]
+text = "Tá tú lyftir blikkið frá skitsuni á iPadinum og sært, hvussu verkætlanin tekur skap á byggiplássinum"
+points = { filip = 2 }
+[[questions.options]]
+text = "Í einum fullum fundarrúmi, har tú greiðir frá smálutunum í verkætlanarætlanini við hjálp frá tínum PowerPointi"
+points = { marjun = 2 }
+[[questions.options]]
+text = "Aftan fyri skíggjan í einum mjúkum skrivstovustóli við fingrunum á tastaturinum, meðan tú tosar í headsetinum"
+points = { anna = 2 }
+
+[[questions]]
+id = 2
+title = "Tríggir lutir, tú hevði tikið við tær á eina oydna oyggj (work edition)"
+subtitle = ""
+[[questions.options]]
+text = "Ein rennugravari, termokanna og eitt útvarp við góðum ljóði"
+points = { haraldur = 2, jens = 1 }
+[[questions.options]]
+text = "Ein amboðskassa, eykalutir og eina slitna ketildrakt"
+points = { katrin = 2, anna = 1 }
+[[questions.options]]
+text = "Viðlíkahaldskipan, eitt mátitól og eyka sikringar"
+points = { filip = 2, marjun = 1 }
+[[questions.options]]
+text = "Merkingarspray, nivelleringsamboð og ein skyggjandi trygdarhjálmur"
+points = { marjun = 2, anna = 1 }
+[[questions.options]]
+text = "Officepakkin, ein strategiætlan og eitt eintak av “Thinking, Fast and Slow”"
+points = { marjun = 2, anna = 1 }
+[[questions.options]]
+text = "Ein stóran pakka av post-it, ein tráðleysan telefonløðara og Panodil – um ein starvsfelagi verður sjúkur"
+points = { marjun = 2, anna = 1 }
+
+# 
+# 
+# Tú hevur fingið gjørt okkurt ítøkiligt arbeiði
+# 
+# Tú hevur fingið okkurt at rigga aftur
+# 
+# Tú hevur hildið útbúnaðin koyrandi uttan trupulleikar 
+# 
+# Tú hevur fingið eina byggiætlan at hanga saman 
+# 
+# Tú hevur tikið eina týdningarmikla avgerð á einum fakligum grundarlagi 
+# 
+# Tú hevur hjálpt øðrum at náa á mál við sínum uppgávum
+
+
+[[questions]]
+id = 3
+title = "3. Tú hevur havt ein góðan arbeiðsdag, tí:"
+subtitle = ""
+[[questions.options]]
+text = "Sjálvstøðugt úti á staðnum"
+points = { haraldur = 2 }
+[[questions.options]]
+text = "Í einum líðli í verkstøðini"
+points = { jens = 2 }
+[[questions.options]]
+text = "Saman við øðrum á skrivstovuni"
+points = { marjun = 2, anna = 1 }
+[[questions.options]]
+text = "Blandað – bæði úti og inni"
+points = { filip = 2, katrin = 1 }
+
+[[questions]]
+id = 4
+title = "Hvat lýsir teg best?"
+subtitle = ""
+[[questions.options]]
+text = "Praktiskur/praktisk og handlagður/handløg"
+points = { haraldur = 2, jens = 1 }
+[[questions.options]]
+text = "Skipað/ur og loysnarsinnað/ur"
+points = { filip = 2 }
+[[questions.options]]
+text = "Tøknilig/ur og neyv/ur"
+points = { katrin = 2 }
+[[questions.options]]
+text = "Kommunikerandi og analytisk/ur"
+points = { marjun = 2, anna = 1 }
+
+[[questions]]
+id = 5
+title = "Hvat hevði tú helst gjørt í frítíðini?"
+subtitle = ""
+[[questions.options]]
+text = "Verið úti í náttúruni"
+points = { haraldur = 2 }
+[[questions.options]]
+text = "Fikla við teknikk ella maskinur"
+points = { jens = 2, katrin = 1 }
+[[questions.options]]
+text = "Planlagt og skipulagt okkurt"
+points = { filip = 2, marjun = 1 }
+[[questions.options]]
+text = "Lisið ella skrivað"
+points = { anna = 2 }
+
+[[questions]]
+id = 6
+title = "Hvørjum amboði likist tú mest?"
+subtitle = ""
+[[questions.options]]
+text = "Einum skrúvujárni – pálítligt og alsíðugt"
+points = { haraldur = 2 }
+[[questions.options]]
+text = "Einum sveisara – sterkt og neyvilegt"
+points = { jens = 2 }
+[[questions.options]]
+text = "Einum kompassi – vísir veghin"
+points = { filip = 2 }
+[[questions.options]]
+text = "Einari talvu – skipuleggur alt"
+points = { marjun = 2, anna = 1 }
+
+[[questions]]
+id = 7
+title = "Hvat er tær mest um?"
+subtitle = ""
+[[questions.options]]
+text = "At tað virkar – og at eg havi bygt tað"
+points = { haraldur = 2, jens = 1 }
+[[questions.options]]
+text = "At alt gongur eftir ætlan"
+points = { filip = 2 }
+[[questions.options]]
+text = "At systemið koyrir feilfrítt"
+points = { katrin = 2 }
+[[questions.options]]
+text = "At fólk skilja, hvat vit gera og hví"
+points = { marjun = 2, anna = 1 }
+
+[[questions]]
+id = 8
+title = "Hvussu viðmerkir tú teg í einum liði?"
+subtitle = ""
+[[questions.options]]
+text = "Eg riggar ræðiliga og geri mítt"
+points = { haraldur = 2 }
+[[questions.options]]
+text = "Eg fiksi tað, ið er bilað"
+points = { jens = 2, katrin = 1 }
+[[questions.options]]
+text = "Eg haldi yvirlit og stýri"
+points = { filip = 2 }
+[[questions.options]]
+text = "Eg samskifti og koordineri"
+points = { marjun = 2, anna = 1 }
+
+
+# Tiebreaker questions – used when top profiles are tied
+[[tiebreakers]]
+id = "tb1"
+profiles = ["haraldur", "jens"]
+title = "Hvat veldur tú?"
+[[tiebreakers.options]]
+text = "Arbeiða úti í frískum lofti"
+points = { haraldur = 2 }
+[[tiebreakers.options]]
+text = "Arbeiða inni í verkstøðini"
+points = { jens = 2 }
+
+[[tiebreakers]]
+id = "tb2"
+profiles = ["filip", "marjun"]
+title = "Hvat veldur tú?"
+[[tiebreakers.options]]
+text = "Vera á byggiplássinum og síggja verkið vaksa"
+points = { filip = 2 }
+[[tiebreakers.options]]
+text = "Vera á skrivstovuni og planleggja framtíðina"
+points = { marjun = 2 }
+
+[[tiebreakers]]
+id = "tb3"
+profiles = ["katrin", "anna"]
+title = "Hvat veldur tú?"
+[[tiebreakers.options]]
+text = "Halda systemir í gangi"
+points = { katrin = 2 }
+[[tiebreakers.options]]
+text = "Greiða frá og kommunikera"
+points = { anna = 2 }
+
+[[tiebreakers]]
+id = "tb4"
+profiles = ["haraldur", "filip"]
+title = "Hvat veldur tú?"
+[[tiebreakers.options]]
+text = "Gera við hondurnar"
+points = { haraldur = 2 }
+[[tiebreakers.options]]
+text = "Leiða og skipuleggja"
+points = { filip = 2 }
+
+[[tiebreakers]]
+id = "tb5"
+profiles = ["jens", "katrin"]
+title = "Hvat veldur tú?"
+[[tiebreakers.options]]
+text = "Mekanisku verkini"
+points = { jens = 2 }
+[[tiebreakers.options]]
+text = "Tey elektronisku systemini"
+points = { katrin = 2 }
+
+[[tiebreakers]]
+id = "tb6"
+profiles = ["marjun", "anna"]
+title = "Hvat veldur tú?"
+[[tiebreakers.options]]
+text = "Halda fundir og stýra verkætlanir"
+points = { marjun = 2 }
+[[tiebreakers.options]]
+text = "Skriva og kommunikera"
+points = { anna = 2 }

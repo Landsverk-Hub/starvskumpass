@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="screen screen--active">
+  <div class="screen__inner">
+    {{ partial "logo.html" }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}

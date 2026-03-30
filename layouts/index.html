@@ -1,0 +1,83 @@
+{{ define "main" }}
+
+{{/* ===== LANDING SCREEN ===== */}}
+<section id="screen-landing" class="screen screen--active">
+  <div class="screen__inner">
+    {{ partial "logo.html" }}
+
+    <div class="landing__content">
+      <h1 class="landing__title">
+        ERT TÚ
+        <span class="text-yellow">HARALDUR, MARJUN ELLA FILIP?</span>
+      </h1>
+      <p class="landing__subtitle">
+        Tak okkara starvsroynd og finn út av, hvussu tú kanst brúka tínar førleikar hjá okkum
+      </p>
+    </div>
+
+    <div class="landing__cta">
+      <div class="landing__arrow">
+        <svg width="32" height="48" viewBox="0 0 32 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 0V44M16 44L2 30M16 44L30 30" stroke="#F5C518" stroke-width="2.5"/>
+        </svg>
+      </div>
+      <button class="btn btn--primary" id="btn-start">BYRJAÐ HER</button>
+    </div>
+  </div>
+</section>
+
+{{/* ===== QUESTION SCREEN (reused for all questions) ===== */}}
+<section id="screen-question" class="screen">
+  <div class="screen__inner">
+    {{ partial "logo.html" }}
+
+    <div class="question__progress">
+      <div class="question__progress-bar">
+        <div class="question__progress-fill" id="progress-fill"></div>
+      </div>
+      <span class="question__progress-text" id="progress-text">1 / 8</span>
+    </div>
+
+    <h2 class="question__title" id="question-title">Kennir tú teg mest heima</h2>
+
+    <ul class="question__options" id="question-options">
+      {{/* Options injected via JS */}}
+    </ul>
+
+    <button class="btn btn--primary btn--disabled" id="btn-answer" disabled>SVARA</button>
+  </div>
+</section>
+
+{{/* ===== RESULT SCREEN ===== */}}
+<section id="screen-result" class="screen">
+  <div class="screen__inner">
+    {{ partial "logo.html" }}
+
+    <h2 class="result__title" id="result-title">TÚ ERT FILIP!</h2>
+
+    <div class="result__image-wrap" id="result-image-wrap">
+      {{/* Image injected via JS */}}
+    </div>
+
+    <p class="result__tagline" id="result-tagline"></p>
+
+    <div class="result__body" id="result-body">
+      {{/* Paragraphs injected via JS */}}
+    </div>
+
+    <div class="result__contact">
+      <h3 class="result__contact-title">Fingið hug at arbeiða hjá okkum?</h3>
+      <p class="result__contact-text">
+        Set teg í samband við HR á
+        <a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a>
+        og fá meira at vita um tínar møguleikar.
+      </p>
+      <p class="result__contact-text">Vit gleða okkum at hoyra frá tær!</p>
+      <a href="mailto:{{ .Site.Params.contactEmail }}" class="btn btn--primary">SEND EIN TELDUPOST</a>
+    </div>
+
+    <button class="btn btn--outline" id="btn-restart">TAK ROYNDINA AFTUR</button>
+  </div>
+</section>
+
+{{ end }}

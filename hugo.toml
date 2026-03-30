@@ -1,0 +1,11 @@
+baseURL = "https://starvsroynd.lv.fo/"
+languageCode = "fo"
+title = "Landsverk Starvsroynd"
+
+[params]
+  description = "Finn út av, hvussu tú kanst brúka tínar førleikar hjá Landsverk"
+  contactEmail = "lv@lv.fo"
+
+[build]
+  [build.buildStats]
+    enable = true
