@@ -92,57 +92,76 @@ points = { marjun = 2, anna = 1 }
 text = "“Hjúkla um felagsskapin: Samskipan og tænastuveiting í nútímans arbeiðsplássinum”"
 points = { marjun = 2, anna = 1 }
 
-
 [[questions]]
 id = 5
-title = "Hvat hevði tú helst gjørt í frítíðini?"
+title = "5. Tú fært kaldasveitta við tankan um:"
 subtitle = ""
 [[questions.options]]
-text = "Verið úti í náttúruni"
+text = "At vera inni á skrivstovu allan dagin"
 points = { haraldur = 2 }
 [[questions.options]]
-text = "Fikla við teknikk ella maskinur"
+text = "Einum kalendara fullum av fundum"
 points = { jens = 2, katrin = 1 }
 [[questions.options]]
-text = "Planlagt og skipulagt okkurt"
+text = "Amatørurin sum pilkar í tíni skipan"
 points = { filip = 2, marjun = 1 }
 [[questions.options]]
-text = "Lisið ella skrivað"
+text = "Einari verkætlan uttan greiða kós"
+points = { anna = 2 }
+[[questions.options]]
+text = "At skula taka avgerð, grundað á búkkenslu"
+points = { anna = 2 }
+[[questions.options]]
+text = "Eitt óskipað skriviborð og 117 ósvaraðir teldupostar"
 points = { anna = 2 }
 
 [[questions]]
 id = 6
-title = "Hvørjum amboði likist tú mest?"
+title = "6. Ein starvsfelagi sigur: “vit hava ein trupulleika”. Tú svarar:"
 subtitle = ""
 [[questions.options]]
-text = "Einum skrúvujárni – pálítligt og alsíðugt"
+text = "“Tað klári eg!”"
 points = { haraldur = 2 }
 [[questions.options]]
-text = "Einum sveisara – sterkt og neyvilegt"
+text = "“Ja, so er alt sum tað plagar 😊”"
 points = { jens = 2 }
 [[questions.options]]
-text = "Einum kompassi – vísir veghin"
+text = "“Tað er ikki so farligt. Lat okkum kanna skipanina”"
 points = { filip = 2 }
 [[questions.options]]
-text = "Einari talvu – skipuleggur alt"
+text = "“Fínt – lat okkum gera eina ætlan”"
+points = { marjun = 2, anna = 1 }
+[[questions.options]]
+text = "“Lat meg fyrst finna váðametingina fram”"
+points = { marjun = 2, anna = 1 }
+[[questions.options]]
+text = "“Lat okkum fáa yvirlit – eg savni fólkini”"
 points = { marjun = 2, anna = 1 }
 
 [[questions]]
 id = 7
-title = "Hvat er tær mest um?"
+title = "7. Mostir hevur keypt tær eina t-shirt á eini vikuskiftisferð í Edinburgh. Hvat stendur á henni?"
 subtitle = ""
 [[questions.options]]
-text = "At tað virkar – og at eg havi bygt tað"
+text = "A: I like to move it, move it"
 points = { haraldur = 2, jens = 1 }
 [[questions.options]]
-text = "At alt gongur eftir ætlan"
+text = "B: Fix-it mode: ON"
 points = { filip = 2 }
 [[questions.options]]
-text = "At systemið koyrir feilfrítt"
+text = "C: Eat. Sleep. Maintain the system."
 points = { katrin = 2 }
 [[questions.options]]
-text = "At fólk skilja, hvat vit gera og hví"
+text = "D: Keep calm and build things"
 points = { marjun = 2, anna = 1 }
+[[questions.options]]
+text = "E: Hope is not a strategy"
+points = { marjun = 2, anna = 1 }
+[[questions.options]]
+text = "F: Certified Chaos Coordinator"
+points = { marjun = 2, anna = 1 }
+
+
 
 [[questions]]
 id = 8
