@@ -162,10 +162,24 @@ text = "F: Certified Chaos Coordinator"
 points = { marjun = 2, anna = 1 }
 
 
+# 
+# 
+# “Trívist best við ítøkiligum uppgávum, har framgongd og sjónlig úrslit eru í fokus” 
+# 
+# “Finni feilir, loysi trupulleikar og gevist ikki, fyrrenn tað riggar” 
+# 
+# “Tryggi støðugan rakstur og havi yvirlit yvir skipanir og samanhangir” 
+# 
+# “Tryggi samanhang og fakliga góðsku í verkætlanum frá hugskoti til veruleika” 
+# 
+# “Havi greinandi tilgongd og taki avgerðir á einum fakligum grundarlagi” 
+# 
+# “Skapi yvirlit og skipan, so gerandisdagurin glíður betur”
+
 
 [[questions]]
 id = 8
-title = "Hvussu viðmerkir tú teg í einum liði?"
+title = "8. Tú hevur arbeitt hart við umsóknini til Landsverk. Hvat stendur í profiltekstinum á tínum CV?"
 subtitle = ""
 [[questions.options]]
 text = "Eg riggar ræðiliga og geri mítt"
