@@ -67,21 +67,6 @@ points = { filip = 2, katrin = 1 }
 text = "Tú hevur hjálpt øðrum at náa á mál við sínum uppgávum"
 points = { filip = 2, katrin = 1 }
 
-# 
-
-# 
-# 
-# 
-# 
-# “Tryggur rakstur: Finn skipanarfeilir og fyribyrg katastrofu” 
-# 
-# “Bygg eina broyting: Øk um tilfarsendurnýtsluna í byggiverkætlanum” 
-# 
-# “Fundir við innihaldi: Skapa framgongd í tínum tvørfakligu verkætlanum við einari greiðari fundarskrá” 
-# 
-# “Hjúkla um felagsskapin: Samskipan og tænastuveiting í nútímans arbeiðsplássinum”
-
-
 [[questions]]
 id = 4
 title = "4. Tú skalt á skeið og hevur glett teg í fleiri mánaðir. Skeiðið eitur:"
@@ -93,10 +78,18 @@ points = { haraldur = 2, jens = 1 }
 text = "“Traktortøkni: Framkomnar umvælingar og ábøtur”"
 points = { filip = 2 }
 [[questions.options]]
-text = ""
+text = "“Tryggur rakstur: Finn skipanarfeilir og fyribyrg katastrofu”"
 points = { katrin = 2 }
 [[questions.options]]
-text = ""
+text = "“Bygg eina broyting: Øk um tilfarsendurnýtsluna í byggiverkætlanum”"
+points = { marjun = 2, anna = 1 }
+
+[[questions.options]]
+text = "“Fundir við innihaldi: Skapa framgongd í tínum tvørfakligu verkætlanum við einari greiðari fundarskrá”"
+points = { marjun = 2, anna = 1 }
+
+[[questions.options]]
+text = "“Hjúkla um felagsskapin: Samskipan og tænastuveiting í nútímans arbeiðsplássinum”"
 points = { marjun = 2, anna = 1 }
 
 
