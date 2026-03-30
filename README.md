@@ -1,17 +1,15 @@
-# Landsverk Starvsroynd – Hugo Quiz Site
-
-A mobile-first job-match quiz for Landsverk, built with Hugo (Go templates) and vanilla JavaScript.
+# Landsverk Starvsroynd 
 
 ## Structure
 
 ```
 starvsroynd/
-├── hugo.toml                    # Hugo config
+├── hugo.toml                    
 ├── assets/
-│   ├── css/main.css             # Mobile-first styles (brand colors)
+│   ├── css/main.css             
 │   └── js/quiz.js               # Client-side quiz engine
 ├── content/
-│   └── _index.md                # Homepage content file
+│   └── _index.md                
 ├── data/
 │   ├── questions.toml           # 8 questions + tiebreakers
 │   └── profiles.toml            # 6 job profiles (result pages)
@@ -37,20 +35,6 @@ starvsroynd/
 
 All quiz logic runs client-side in `assets/js/quiz.js`. Hugo's data files (`data/questions.toml`, `data/profiles.toml`) are injected into the page as JSON via the `quiz-data.html` partial.
 
-## Getting started
-
-```bash
-# Install Hugo (extended edition recommended)
-# https://gohugo.io/installation/
-
-# Run dev server
-cd starvsroynd
-hugo server -D
-
-# Build for production
-hugo --minify
-```
-
 ## Customisation
 
 ### Edit questions
@@ -64,9 +48,3 @@ Edit `data/profiles.toml`. Each profile has name, title, role, tagline, image pa
 
 ### Add profile images
 Place photos in `static/images/profiles/` named after each profile key (e.g., `filip.jpg`).
-
-### Replace the logo
-Update the SVG in `layouts/partials/logo.html` with the actual Landsverk logo.
-
-### Brand colours
-All colours are CSS custom properties in `assets/css/main.css` under `:root`.
