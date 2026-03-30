@@ -1,6 +1,7 @@
-baseURL = "https://starvsroynd.lv.fo/"
+baseURL = "https://example.com/"
 languageCode = "fo"
 title = "Landsverk Starvsroynd"
+relativeURLs = true
 
 [params]
   description = "Finn út av, hvussu tú kanst brúka tínar førleikar hjá Landsverk"

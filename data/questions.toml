@@ -44,54 +44,61 @@ points = { marjun = 2, anna = 1 }
 text = "Ein stóran pakka av post-it, ein tráðleysan telefonløðara og Panodil – um ein starvsfelagi verður sjúkur"
 points = { marjun = 2, anna = 1 }
 
-# 
-# 
-# Tú hevur fingið gjørt okkurt ítøkiligt arbeiði
-# 
-# Tú hevur fingið okkurt at rigga aftur
-# 
-# Tú hevur hildið útbúnaðin koyrandi uttan trupulleikar 
-# 
-# Tú hevur fingið eina byggiætlan at hanga saman 
-# 
-# Tú hevur tikið eina týdningarmikla avgerð á einum fakligum grundarlagi 
-# 
-# Tú hevur hjálpt øðrum at náa á mál við sínum uppgávum
-
-
 [[questions]]
 id = 3
 title = "3. Tú hevur havt ein góðan arbeiðsdag, tí:"
 subtitle = ""
 [[questions.options]]
-text = "Sjálvstøðugt úti á staðnum"
+text = "Tú hevur fingið gjørt okkurt ítøkiligt arbeiði"
 points = { haraldur = 2 }
 [[questions.options]]
-text = "Í einum líðli í verkstøðini"
+text = "Tú hevur fingið okkurt at rigga aftur"
 points = { jens = 2 }
 [[questions.options]]
-text = "Saman við øðrum á skrivstovuni"
+text = "Tú hevur hildið útbúnaðin koyrandi uttan trupulleikar"
 points = { marjun = 2, anna = 1 }
 [[questions.options]]
-text = "Blandað – bæði úti og inni"
+text = "Tú hevur fingið eina byggiætlan at hanga saman"
 points = { filip = 2, katrin = 1 }
+[[questions.options]]
+text = "Tú hevur tikið eina týdningarmikla avgerð á einum fakligum grundarlagi"
+points = { filip = 2, katrin = 1 }
+[[questions.options]]
+text = "Tú hevur hjálpt øðrum at náa á mál við sínum uppgávum"
+points = { filip = 2, katrin = 1 }
+
+# 
+
+# 
+# 
+# 
+# 
+# “Tryggur rakstur: Finn skipanarfeilir og fyribyrg katastrofu” 
+# 
+# “Bygg eina broyting: Øk um tilfarsendurnýtsluna í byggiverkætlanum” 
+# 
+# “Fundir við innihaldi: Skapa framgongd í tínum tvørfakligu verkætlanum við einari greiðari fundarskrá” 
+# 
+# “Hjúkla um felagsskapin: Samskipan og tænastuveiting í nútímans arbeiðsplássinum”
+
 
 [[questions]]
 id = 4
-title = "Hvat lýsir teg best?"
+title = "4. Tú skalt á skeið og hevur glett teg í fleiri mánaðir. Skeiðið eitur:"
 subtitle = ""
 [[questions.options]]
-text = "Praktiskur/praktisk og handlagður/handløg"
+text = "“Eingin slingur í valsinum: Salt og kavarudding við trygdini fremst”"
 points = { haraldur = 2, jens = 1 }
 [[questions.options]]
-text = "Skipað/ur og loysnarsinnað/ur"
+text = "“Traktortøkni: Framkomnar umvælingar og ábøtur”"
 points = { filip = 2 }
 [[questions.options]]
-text = "Tøknilig/ur og neyv/ur"
+text = ""
 points = { katrin = 2 }
 [[questions.options]]
-text = "Kommunikerandi og analytisk/ur"
+text = ""
 points = { marjun = 2, anna = 1 }
+
 
 [[questions]]
 id = 5
