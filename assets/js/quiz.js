@@ -41,6 +41,7 @@
     progressText:  document.getElementById('progress-text'),
     questionTitle: document.getElementById('question-title'),
     questionSubtitle: document.getElementById('question-subtitle'),
+    questionQuestion: document.getElementById('question-question'),
     questionOpts:  document.getElementById('question-options'),
     resultTitle:   document.getElementById('result-title'),
     resultImage:   document.getElementById('result-image-wrap'),
@@ -75,6 +76,8 @@
     els.questionTitle.textContent = q.title;
     els.questionSubtitle.textContent = q.subtitle || '';
     els.questionSubtitle.style.display = q.subtitle ? '' : 'none';
+    els.questionQuestion.textContent = q.question || '';
+    els.questionQuestion.style.display = q.question ? '' : 'none';
 
     els.questionOpts.innerHTML = '';
     q.options.forEach((opt, i) => {
@@ -170,7 +173,8 @@ return {
   id: tb.id,
   title: tb.title,
   options: filteredOptions,
-  subtitle: tb.subtitle || ''
+  subtitle: tb.subtitle || '',
+  question: tb.question || ''
   }; 
     }
   }

@@ -48,7 +48,7 @@ h1 {
   margin-bottom: var(--sp-xl);
 }
 
-.question__subtitle {
+.question__subtitle, .question__question {
   font-size: var(--fs-md);
   font-weight: 500;
   line-height: 1.55;
