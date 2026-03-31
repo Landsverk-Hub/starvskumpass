@@ -11,6 +11,13 @@
 }
 @font-face {
   font-family: 'Univia Pro';
+  src: url('{{ relURL "fonts/Mostardesign-UniviaPro-Medium.otf" }}') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Univia Pro';
   src: url('{{ relURL "fonts/Mostardesign-UniviaProUltra.otf" }}') format('opentype');
   font-weight: 900;
   font-style: normal;
@@ -29,9 +36,16 @@
   --color-dark:     #0A3344;
   --color-text:     #FFFFFF;
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: var(--font-family-heading);
-  font-weight: 900; /* Uses the Ultra weight */
+  font-weight: 900;
+}
+
+.question__title {
+  font-size: var(--fs-2xl);
+  font-weight: 500;
+  line-height: 1.15;
+  margin-bottom: var(--sp-xl);
 }
 
   /* Typography */

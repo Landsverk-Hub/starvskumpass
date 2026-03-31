@@ -46,7 +46,7 @@ points = { hanna = 1 }
 
 [[questions]]
 id = 3
-title = "3. Tú hevur havt ein góðan arbeiðsdag, tí:"
+title = "Tú hevur havt ein góðan arbeiðsdag, tí:"
 subtitle = ""
 [[questions.options]]
 text = "Tú hevur fingið gjørt okkurt ítøkiligt arbeiði"
@@ -69,7 +69,7 @@ points = { hanna = 1 }
 
 [[questions]]
 id = 4
-title = "4. Tú skalt á skeið og hevur glett teg í fleiri mánaðir. Skeiðið eitur:"
+title = "Tú skalt á skeið og hevur glett teg í fleiri mánaðir. Skeiðið eitur:"
 subtitle = ""
 [[questions.options]]
 text = "“Eingin slingur í valsinum: Salt og kavarudding við trygdini fremst”"
@@ -92,7 +92,7 @@ points = { hanna = 1 }
 
 [[questions]]
 id = 5
-title = "5. Tú fært kaldasveitta við tankan um:"
+title = "Tú fært kaldasveitta við tankan um:"
 subtitle = ""
 [[questions.options]]
 text = "At vera inni á skrivstovu allan dagin"
@@ -115,7 +115,7 @@ points = { hanna = 1 }
 
 [[questions]]
 id = 6
-title = "6. Ein starvsfelagi sigur: “vit hava ein trupulleika”. Tú svarar:"
+title = "Ein starvsfelagi sigur: “vit hava ein trupulleika”. Tú svarar:"
 subtitle = ""
 [[questions.options]]
 text = "“Tað klári eg!”"
@@ -138,30 +138,30 @@ points = { hanna = 1 }
 
 [[questions]]
 id = 7
-title = "7. Mostir hevur keypt tær eina t-shirt á eini vikuskiftisferð í Edinburgh. Hvat stendur á henni?"
+title = "Mostir hevur keypt tær eina t-shirt á eini vikuskiftisferð í Edinburgh. Hvat stendur á henni?"
 subtitle = ""
 [[questions.options]]
-text = "A: I like to move it, move it"
+text = "I like to move it, move it"
 points = { hilmar-hogni = 1 }
 [[questions.options]]
-text = "B: Fix-it mode: ON"
+text = "Fix-it mode: ON"
 points = { filip = 1 }
 [[questions.options]]
-text = "C: Eat. Sleep. Maintain the system."
+text = "Eat. Sleep. Maintain the system."
 points = { sigurd = 1 }
 [[questions.options]]
-text = "D: Keep calm and build things"
+text = "Keep calm and build things"
 points = { haraldur = 1 }
 [[questions.options]]
-text = "E: Hope is not a strategy"
+text = "Hope is not a strategy"
 points = { marita = 1 }
 [[questions.options]]
-text = "F: Certified Chaos Coordinator"
+text = "Certified Chaos Coordinator"
 points = { hanna = 1 }
 
 [[questions]]
 id = 8
-title = "8. Tú hevur arbeitt hart við umsóknini til Landsverk. Hvat stendur í profiltekstinum á tínum CV?"
+title = "Tú hevur arbeitt hart við umsóknini til Landsverk. Hvat stendur í profiltekstinum á tínum CV?"
 subtitle = ""
 [[questions.options]]
 text = "“Trívist best við ítøkiligum uppgávum, har framgongd og sjónlig úrslit eru í fokus”"
