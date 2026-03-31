@@ -1,4 +1,5 @@
 {{ $data := dict "questions" .Site.Data.questions.questions "tiebreakers" .Site.Data.questions.tiebreakers "profiles" .Site.Data.profiles }}
 <script>
   window.__QUIZ_DATA__ = {{ $data | jsonify | safeJS }};
+  window.__BASE_URL__ = {{ .Site.BaseURL | jsonify }};
 </script>
