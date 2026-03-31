@@ -201,7 +201,8 @@
     els.resultTitle.innerHTML = `TÚ ERT <span class="text-yellow">${profile.name.toUpperCase()}!</span>`;
 
     // Image
-    els.resultImage.innerHTML = `<img src="${BASE}${profile.image}" alt="${profile.name}" loading="lazy">`;
+    const imgSrc = profile.image;
+    els.resultImage.innerHTML = '<img src="' + imgSrc + '" alt="' + profile.name + '" loading="lazy">';
 
     // Tagline
     els.resultTagline.textContent = profile.tagline;
