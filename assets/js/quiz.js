@@ -110,7 +110,6 @@
 
     window.scrollTo({ top: 0, behavior: 'instant' });
 
-    // Accumulate points
     if (chosen.points) {
       Object.entries(chosen.points).forEach(([profile, pts]) => {
         scores[profile] = (scores[profile] || 0) + pts;
@@ -120,14 +119,11 @@
     currentStep++;
 
     if (currentStep < questionQueue.length) {
-      // More questions
       renderQuestion();
-      // Re-animate
       screens.question.classList.remove('screen--fade-in');
-      void screens.question.offsetWidth; // trigger reflow
+      void screens.question.offsetWidth; 
       screens.question.classList.add('screen--fade-in');
     } else {
-      // Finished current queue – check for ties
       const tiebreaker = findTiebreaker();
       if (tiebreaker) {
         questionQueue.push(tiebreaker);
@@ -141,7 +137,6 @@
     }
   }
 
-  // ── Tiebreaker logic ──
   function findTiebreaker() {
     const sorted = PROFILE_KEYS
       .map((k) => ({ key: k, score: scores[k] }))
@@ -152,8 +147,6 @@
 
     if (tied.length <= 1) return null;
 
-    // Find a tiebreaker that covers at least 2 of the tied profiles
-    // and hasn't been used yet
     const usedIds = questionQueue.map((q) => q.id);
     for (const tb of tiebreakers) {
       if (usedIds.includes(tb.id)) continue;
@@ -161,11 +154,9 @@
       if (overlap.length >= 2) return tb;
     }
 
-    // No specific tiebreaker found – pick the first tied profile alphabetically
     return null;
   }
 
-  // ── Determine winner ──
   function getWinner() {
     let maxScore = -1;
     let winner = PROFILE_KEYS[0];
@@ -178,22 +169,17 @@
     return winner;
   }
 
-  // ── Show result ──
   function showResult() {
     const winnerKey = getWinner();
     const profile = profiles[winnerKey];
 
-    // Title – split name in yellow
     els.resultTitle.innerHTML = `TÚ ERT <span class="text-yellow">${profile.name.toUpperCase()}!</span>`;
 
-    // Image
     const imgSrc = profile.image;
     els.resultImage.innerHTML = '<img src="' + imgSrc + '" alt="' + profile.name + '" loading="lazy">';
 
-    // Tagline
     els.resultTagline.textContent = profile.tagline;
 
-    // Body paragraphs
     els.resultBody.innerHTML = profile.paragraphs
       .map((p) => `<p>${p}</p>`)
       .join('');
@@ -201,7 +187,6 @@
     showScreen('result');
   }
 
-  // ── Event listeners ──
   els.btnStart.addEventListener('click', () => {
     resetQuiz();
     renderQuestion();
@@ -215,7 +200,6 @@
     showScreen('landing');
   });
 
-  // ── Keyboard a11y ──
   document.addEventListener('keydown', (e) => {
     if (!screens.question.classList.contains('screen--active')) return;
     const opts = els.questionOpts.querySelectorAll('.option');
