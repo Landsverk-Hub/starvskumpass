@@ -1,7 +1,6 @@
-baseURL = "https://bartal-io.github.io/lv-starvsroynd/"
+baseURL = "//lv-starvsroynd/"
 languageCode = "fo"
 title = "Landsverk Starvsroynd"
-relativeURLs = true
 
 [params]
   description = "Finn út av, hvussu tú kanst brúka tínar førleikar hjá Landsverk"

@@ -24,9 +24,6 @@
   const PROFILE_KEYS = Object.keys(profiles);
   const TOTAL_MAIN = questions.length; // 8
 
-  // ── Base URL for resolving asset paths ──
-  const BASE = (window.__BASE_URL__ || '/').replace(/\/$/, '');
-
   // ── State ──
   let scores = {};          // { haraldur: 4, marjun: 7, … }
   let currentStep = 0;      // index into questionQueue
@@ -201,7 +198,7 @@
     els.resultTitle.innerHTML = `TÚ ERT <span class="text-yellow">${profile.name.toUpperCase()}!</span>`;
 
     // Image
-    els.resultImage.innerHTML = `<img src="${BASE}${profile.image}" alt="${profile.name}" loading="lazy">`;
+    els.resultImage.innerHTML = `<img src="${profile.image}" alt="${profile.name}" loading="lazy">`;
 
     // Tagline
     els.resultTagline.textContent = profile.tagline;
