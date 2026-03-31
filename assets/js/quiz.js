@@ -1,12 +1,6 @@
-/**
- * Landsverk Starvsroynd – Quiz Engine
- * Mobile-first, vanilla JS, no dependencies.
- */
-
 (function () {
   'use strict';
 
-  // ── Load data from Hugo-injected variable ──
   const DATA = window.__QUIZ_DATA__;
 
   if (!DATA || typeof DATA !== 'object') {
@@ -24,13 +18,12 @@
   const PROFILE_KEYS = Object.keys(profiles);
   const TOTAL_MAIN = questions.length; // 8
 
-  // ── Base URL for resolving asset paths ──
   const BASE = (window.__BASE_URL__ || '/').replace(/\/$/, '');
 
   // ── State ──
-  let scores = {};          // { haraldur: 4, marjun: 7, … }
-  let currentStep = 0;      // index into questionQueue
-  let questionQueue = [];    // array of question objects (main + tiebreakers)
+  let scores = {};
+  let currentStep = 0;
+  let questionQueue = [];
   let selectedIndex = null;
 
   // ── DOM refs ──
@@ -54,7 +47,6 @@
     resultBody:    document.getElementById('result-body'),
   };
 
-  // ── Screen transitions ──
   function showScreen(name) {
     Object.values(screens).forEach((s) => {
       s.classList.remove('screen--active', 'screen--fade-in');
@@ -63,29 +55,24 @@
     target.classList.add('screen--active', 'screen--fade-in');
   }
 
-  // ── Initialise / reset quiz ──
   function resetQuiz() {
     scores = {};
     PROFILE_KEYS.forEach((k) => (scores[k] = 0));
     currentStep = 0;
     selectedIndex = null;
-    questionQueue = [...questions]; // start with the 8 main questions
+    questionQueue = [...questions];
   }
 
-  // ── Render a question ──
   function renderQuestion() {
     const q = questionQueue[currentStep];
     const total = questionQueue.length;
     const num = currentStep + 1;
 
-    // Progress
     els.progressFill.style.width = `${(num / total) * 100}%`;
     els.progressText.textContent = `${num} / ${total}`;
 
-    // Title
     els.questionTitle.textContent = q.title;
 
-    // Options
     els.questionOpts.innerHTML = '';
     q.options.forEach((opt, i) => {
       const li = document.createElement('li');
@@ -99,13 +86,11 @@
       els.questionOpts.appendChild(li);
     });
 
-    // Reset answer button
     selectedIndex = null;
     els.btnAnswer.disabled = true;
     els.btnAnswer.classList.add('btn--disabled');
   }
 
-  // ── Select an option ──
   function selectOption(index) {
     selectedIndex = index;
     // Visual
