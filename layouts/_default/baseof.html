@@ -21,8 +21,7 @@
   {{/* Quiz data injected for JS */}}
   {{ partial "quiz-data.html" . }}
 
-  {{/* Quiz JS */}}
-  {{ $quiz := resources.Get "js/quiz.js" | resources.Fingerprint }}
-  <script src="{{ $quiz.RelPermalink }}"></script>
+{{ $quiz := resources.Get "js/quiz.js" | resources.Minify | fingerprint }}
+<script src="{{ $quiz.Permalink }}" integrity="{{ $quiz.Data.Integrity }}"></script>
 </body>
 </html>

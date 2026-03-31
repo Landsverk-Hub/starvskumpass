@@ -182,71 +182,69 @@ points = { marita = 1 }
 text = "“Skapi yvirlit og skipan, so gerandisdagurin glíður betur”"
 points = { hanna = 1 }
 
-
-
-# Tiebreaker questions – used when top profiles are tied
-[[tiebreakers]]
-id = "tb1"
-profiles = ["haraldur", "jens"]
-title = "Hvat veldur tú?"
-[[tiebreakers.options]]
-text = "Arbeiða úti í frískum lofti"
-points = { haraldur = 2 }
-[[tiebreakers.options]]
-text = "Arbeiða inni í verkstøðini"
-points = { jens = 2 }
-
-[[tiebreakers]]
-id = "tb2"
-profiles = ["filip", "marjun"]
-title = "Hvat veldur tú?"
-[[tiebreakers.options]]
-text = "Vera á byggiplássinum og síggja verkið vaksa"
-points = { filip = 2 }
-[[tiebreakers.options]]
-text = "Vera á skrivstovuni og planleggja framtíðina"
-points = { marjun = 2 }
-
-[[tiebreakers]]
-id = "tb3"
-profiles = ["katrin", "anna"]
-title = "Hvat veldur tú?"
-[[tiebreakers.options]]
-text = "Halda systemir í gangi"
-points = { katrin = 2 }
-[[tiebreakers.options]]
-text = "Greiða frá og kommunikera"
-points = { anna = 2 }
-
-[[tiebreakers]]
-id = "tb4"
-profiles = ["haraldur", "filip"]
-title = "Hvat veldur tú?"
-[[tiebreakers.options]]
-text = "Gera við hondurnar"
-points = { haraldur = 2 }
-[[tiebreakers.options]]
-text = "Leiða og skipuleggja"
-points = { filip = 2 }
-
-[[tiebreakers]]
-id = "tb5"
-profiles = ["jens", "katrin"]
-title = "Hvat veldur tú?"
-[[tiebreakers.options]]
-text = "Mekanisku verkini"
-points = { jens = 2 }
-[[tiebreakers.options]]
-text = "Tey elektronisku systemini"
-points = { katrin = 2 }
-
-[[tiebreakers]]
-id = "tb6"
-profiles = ["marjun", "anna"]
-title = "Hvat veldur tú?"
-[[tiebreakers.options]]
-text = "Halda fundir og stýra verkætlanir"
-points = { marjun = 2 }
-[[tiebreakers.options]]
-text = "Skriva og kommunikera"
-points = { anna = 2 }
+# # Tiebreaker questions – used when top profiles are tied
+# [[tiebreakers]]
+# id = "tb1"
+# profiles = ["haraldur", "jens"]
+# title = "Hvat veldur tú?"
+# [[tiebreakers.options]]
+# text = "Arbeiða úti í frískum lofti"
+# points = { haraldur = 2 }
+# [[tiebreakers.options]]
+# text = "Arbeiða inni í verkstøðini"
+# points = { jens = 2 }
+# 
+# [[tiebreakers]]
+# id = "tb2"
+# profiles = ["filip", "marjun"]
+# title = "Hvat veldur tú?"
+# [[tiebreakers.options]]
+# text = "Vera á byggiplássinum og síggja verkið vaksa"
+# points = { filip = 2 }
+# [[tiebreakers.options]]
+# text = "Vera á skrivstovuni og planleggja framtíðina"
+# points = { marjun = 2 }
+# 
+# [[tiebreakers]]
+# id = "tb3"
+# profiles = ["katrin", "anna"]
+# title = "Hvat veldur tú?"
+# [[tiebreakers.options]]
+# text = "Halda systemir í gangi"
+# points = { katrin = 2 }
+# [[tiebreakers.options]]
+# text = "Greiða frá og kommunikera"
+# points = { anna = 2 }
+# 
+# [[tiebreakers]]
+# id = "tb4"
+# profiles = ["haraldur", "filip"]
+# title = "Hvat veldur tú?"
+# [[tiebreakers.options]]
+# text = "Gera við hondurnar"
+# points = { haraldur = 2 }
+# [[tiebreakers.options]]
+# text = "Leiða og skipuleggja"
+# points = { filip = 2 }
+# 
+# [[tiebreakers]]
+# id = "tb5"
+# profiles = ["jens", "katrin"]
+# title = "Hvat veldur tú?"
+# [[tiebreakers.options]]
+# text = "Mekanisku verkini"
+# points = { jens = 2 }
+# [[tiebreakers.options]]
+# text = "Tey elektronisku systemini"
+# points = { katrin = 2 }
+# 
+# [[tiebreakers]]
+# id = "tb6"
+# profiles = ["marjun", "anna"]
+# title = "Hvat veldur tú?"
+# [[tiebreakers.options]]
+# text = "Halda fundir og stýra verkætlanir"
+# points = { marjun = 2 }
+# [[tiebreakers.options]]
+# text = "Skriva og kommunikera"
+# points = { anna = 2 }
