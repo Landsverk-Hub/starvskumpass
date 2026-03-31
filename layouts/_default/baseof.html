@@ -7,14 +7,14 @@
   <meta name="description" content="{{ .Site.Params.description }}">
 
   {{/* Preload local font */}}
-  <link rel="preload" href="{{ relURL "/fonts/UniviaPro-Light.otf" }}" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="{{ relURL "fonts/Mostardesign-UniviaPro-Light.otf" }}" as="font" type="font/otf" crossorigin>
 
   {{/* Main stylesheet */}}
   {{ $style := resources.Get "css/main.css" | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
   {{/* Favicon – replace with actual */}}
-  <link rel="icon" href="{{ relURL "/images/favicon.png" }}" type="image/png">
+  <link rel="icon" href="{{ relURL "images/favicon.png" }}" type="image/png">
 </head>
 <body>
   {{ block "main" . }}{{ end }}
