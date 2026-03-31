@@ -9,11 +9,18 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Univia Pro';
+  src: url('{{ relURL "fonts/Mostardesign-UniviaProUltra.otf" }}') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   /* Brand palette */
-  --color-bg:       #0B4F6C;
+  --color-bg:       #004F7C;
   --color-bg-dark:  #093E55;
-  --color-yellow:   #F5C518;
+  --color-yellow:   #FFDD00;
   --color-yellow-hover: #FFD633;
   --color-white:    #FFFFFF;
   --color-white-60: rgba(255, 255, 255, 0.6);
@@ -21,6 +28,11 @@
   --color-white-10: rgba(255, 255, 255, 0.1);
   --color-dark:     #0A3344;
   --color-text:     #FFFFFF;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: 900; /* Uses the Ultra weight */
+}
 
   /* Typography */
   --font-family: 'Univia Pro', -apple-system, BlinkMacSystemFont, sans-serif;

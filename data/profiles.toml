@@ -1,77 +1,71 @@
-[haraldur]
-name = "Haraldur"
-title = "TÚ ERT HARALDUR!"
-role = "Rørleiðari"
-tagline = "Starvið sum rørleiðari hóskar væl til tín."
-image = "/images/profiles/haraldur.jpg"
+[hilmar-hogni]
+name = "Hilmar Høgni"
+title = "TÚ ERT HILMAR HØGNI!"
+role = "Maskinførari"
+tagline = "Starvið sum maskinførari hóskar væl til tín."
+image = "/images/profiles/hilmar-hogni.jpg"
 paragraphs = [
-  "Tú ert praktiskur/praktisk, sjálvstøðug/ur og trivst úti í øllum veðrum. Tú hevur góðar hendur og eygað fyri at gera ting rætt.",
-  "Tú arbeiðir við rørleiðingar – alt frá hitaveitu til vatn og frárennsli. Tað er handverk, sum krevur bæði líkamligan styrk og fagligt yvirlit.",
-  "Hjá Landsverk kanst tú arbeiða við rørleiðingar í stórum byggiverkætlunum – bæði nýggjum og gamlum. Tað kann vera í sambandi við bygningar, vegar ella aðrar infrastrukturverkætlanir.",
-  "Tú ert ofta útbúgvin sum rørsmiður ella hevur annan handaverksbakgrunn."
-]
-
-[marjun]
-name = "Marjun"
-title = "TÚ ERT MARJUN!"
-role = "Verkætlanarættleiðari"
-tagline = "Starvið sum verkætlanarættleiðari hóskar væl til tín."
-image = "/images/profiles/marjun.jpg"
-paragraphs = [
-  "Tú ert skipað/ur, grundig/ur og dugir væl at samskifta. Tú heldur yvirlit og tryggjar, at alt kemur á pláss.",
-  "Tú arbeiðir við at stýra og fylgja verkætlunum frá byrjan til enda – at alt verður gjørt á rættum tíma, innan fíggjarligan ramma og eftir ætlan.",
-  "Hjá Landsverk kanst tú arbeiða við øllum slag av byggiverkætlunum – frá nýbyggjum til umvælingar og viðlíkahald.",
-  "Tú ert ofta útbúgvin sum verkfrøðingur, byggifrøðingur ella hevur annan háskúlabakgrunn."
+  "Tú trívist best, tá nakað veruliga flytir seg. Fyri teg gevur arbeiðið meining, tá tú sært úrslitið beinanvegin.",
+  "Tú ert praktisk/ur, arbeiðssom/ur og ikki bangin fyri at taka fat. Har onnur tosa um loysnir, ert tú longu farin í gongd við at fremja tær.",
+  "Tú trívist best úti í markini, har maskinur, tempo og ítøkilig úrslit eru ein natúrligur partur av gerandisdegnum. Tað kann vera í vegaumsitingini ella innan asfalt- og skervframleiðslu."
 ]
 
 [filip]
 name = "Filip"
 title = "TÚ ERT FILIP!"
-role = "Verkætlanarleiðari"
-tagline = "Starvið sum verkætlanarleiðari hóskar væl til tín."
+role = "Smiður"
+tagline = "Starvið sum smiður hóskar væl til tín."
 image = "/images/profiles/filip.jpg"
 paragraphs = [
-  "Tú ert skipað/ur, loysnarsinnað/ur og dugir væl at gera hugskot til veruleika. Tú trivst í samspælinum millum ætlan og praksis.",
-  "Tú hóskar væl til verkætlanir, har nakað skal skapast. Tú ert dugnalig/ur at halda yvirlit og tryggja framdrift í verkætlanini – og tað er avgerandi, tá Landsverk er landsins byggiharri.",
-  "Tú kanst arbeiða sum verkætlanarleiðari við ábyrgd av nýbygging ella av umvæling og viðlíkahaldi av bygningum landsins. Tað kann eisini vera innan infrastruktur, við denti á planlegging av vegum, brúm og tunlum.",
+  "Tú ert tekniskt sterkur, nágreinilig/ur og loysnsinnað/ur. Tú gevst ikki, fyrr enn tað riggar, og tú hevur eitt natúrligt forvitni fyri, hvussu skipanir og tøkni hanga saman. Fyri teg er ein trupulleiki ikki ein forðing – tað er ein avbjóðing.",
+  "Tú trívist best, har tú kanst arbeiða við hondunum og fáa teknikkin at spæla – til dømis sum smiður í einum av okkara verkstøðum."
+]
+
+[sigurd]
+name = "Sigurð"
+title = "TÚ ERT SIGURÐ!"
+role = "Maskinmeistari"
+tagline = "Starvið sum maskinmeistari hóskar væl til tín."
+image = "/images/profiles/sigurd.jpg"
+paragraphs = [
+  "Tú ert rólig/ur, álítandi og hevur gott skil á tingunum. Tú hevur gott eyga fyri skipanum og samanhangum og trívist við at tryggja, at alt koyrir, sum tað skal. Tú ert tann, sum varnast trupulleikar, áðrenn teir vísa seg.",
+  "Tú trívist í leiklutum við ábyrgd av rakstri, eftirliti og tekniskum skipanum.",
+  "Tað kann til dømis vera sum maskinist ella maskinmeistari innan rakstur og viðlíkahald, ella tú kanst arbeiða við orkuumvæling av bygningum landsins."
+]
+
+[haraldur]
+name = "Haraldur"
+title = "TÚ ERT HARALDUR!"
+role = "Verkætlanarleiðari"
+tagline = "Starvið sum verkætlanarleiðari hóskar væl til tín."
+image = "/images/profiles/haraldur.jpg"
+paragraphs = [
+  "Tú ert skipað/ur og dugir væl at finna loysnir. Tú dugir at samstava við nógvar partar og harvið gera hugskot til veruleika. Tú trívist í samspælinum millum ætlan og praksis.",
+  "Tú hóskar væl til verkætlanir, har nakað skal skapast. Tú ert dugnalig/ur at halda yvirlit og tryggja framgongd í verkætlanini.",
+  "Tú kanst arbeiða sum verkætlanarleiðari við ábyrgd av nýbygging ella av umvæling og viðlíkahaldi av bygningum landsins. Tað kann eisini vera innan infrakervi, við denti á planlegging av vegum, brúm og tunlum.",
   "Tú ert ofta útbúgvin sum verkfrøðingur, byggifrøðingur ella arkitektur."
 ]
 
-[anna]
-name = "Anna"
-title = "TÚ ERT ANNA!"
-role = "Kommunikatión og umsiting"
-tagline = "Starvið innan kommunikatión og umsiting hóskar væl til tín."
-image = "/images/profiles/anna.jpg"
+[marita]
+name = "Marita"
+title = "TÚ ERT MARITA!"
+role = "Fulltrúi"
+tagline = "Starvið sum fulltrúi hóskar væl til tín."
+image = "/images/profiles/marita.jpg"
 paragraphs = [
-  "Tú ert góð/ur til at kommunikera, bæði skrivliga og munnliga. Tú hevur yvirlit og kanst seta teg inn í ymiskar støður.",
-  "Tú arbeiðir við at greiða frá og umsita – hvort seg er innanhýsis kommunikatión, almenn miðling ella administrativu verkætlanir.",
-  "Hjá Landsverk kanst tú arbeiða við umsiting, marknaðarføring, personalumsiting ella øðrum umsitingarverkum.",
-  "Tú ert ofta útbúgvin við háskúlaútbúgving innan kommunikatión, umsiting ella líknandi."
+  "Tú ert greinandi, hugsandi og dugir væl at arbeiða við fløktum málum. Tú setur spurningar, sært samanhangir og tryggjar, at avgerðir verða tiknar á einum væl grundaðum grundarlagi.",
+  "Tú trívist í leiklutum, har yvirlit, fakligheit og haldgóðar metingar eru avgerandi.",
+  "Tíni áhugamál og útbúgving avgerða hvat tú kanst arbeiða við hjá okkum – tað kann eitt nú verða sum løgfrøðingur, controller, analytikari, við málsviðgerð, verkætlanararbeiðið ella innan HR ella samskifti."
 ]
 
-[jens]
-name = "Jens"
-title = "TÚ ERT JENS!"
-role = "Smiður/Mekanikari"
-tagline = "Starvið sum smiður ella mekanikari hóskar væl til tín."
-image = "/images/profiles/jens.jpg"
+[hanna]
+name = "Hanna"
+title = "TÚ ERT HANNA!"
+role = "Skrivstovufólk"
+tagline = "Starvið sum skrivstovufólk hóskar væl til tín."
+image = "/images/profiles/hanna.jpg"
 paragraphs = [
-  "Tú ert handlagður/handløg og trivst í verkstøðini. Tú hevur eygað fyri at gera ting og kanst finna loysn, tá onnur geva upp.",
-  "Tú arbeiðir við maskinur, jarn og ólík handaverksverktyg. Tú kanst sveisa, bøta og byggja – og tú dugir at brúka bæði nýggja og gamla teknologi.",
-  "Hjá Landsverk kanst tú arbeiða í smiðjuni við viðlíkahaldi av maskinari og utrústingi ella á byggiplássinum við jarnsmiðaarbeiði.",
-  "Tú ert ofta útbúgvin sum smiður, mekanikari ella hevur annan handaverksbakgrunn."
-]
-
-[katrin]
-name = "Katrin"
-title = "TÚ ERT KATRIN!"
-role = "Elektrikar/Teknikari"
-tagline = "Starvið sum elektrikar ella teknikari hóskar væl til tín."
-image = "/images/profiles/katrin.jpg"
-paragraphs = [
-  "Tú ert tøknilig/ur, neyv/ur og kanst halda fokus, tá aðrir missa tráðin. Tú trivst millum leiðningar, skermur og maskinur.",
-  "Tú arbeiðir við elektrisku systemir og tøkniligar innrættingar – bæði í bygningum og í infrastrukturi. Tú tryggjar, at alt virkar, sum tað skal.",
-  "Hjá Landsverk kanst tú arbeiða við elektrisku innrættingar í bygningum, á vegum ella í tunlum. Tað kann eisini vera drift og viðlíkahald av tøkniligum systemum.",
-  "Tú ert ofta útbúgvin sum elektrikar, automatiseringarteknikari ella hevur annan tøkniligan bakgrunn."
+  "Har onnur missa yvirlitið, fært tú lutirnar at hanga saman. Tú heldur skil á smálutum og tryggjar, at gerandisdagurin glíður – eisini tá nógv er at gera.",
+  "Tú ert skipað/ur, tænastusinnað/ur og dugir væl at fáa bæði uppgávur og fólk at spæla saman.",
+  "Tíni áhugamál og útbúgving avgerða hvat tú kanst arbeiða við hjá okkum – tað kann til dømis verða at arbeiða við bókhaldi, KT-support ella fyrisitingarligum uppgávum."
 ]
