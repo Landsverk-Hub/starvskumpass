@@ -61,7 +61,6 @@
     });
     const target = screens[name];
     target.classList.add('screen--active', 'screen--fade-in');
-    window.scrollTo({ top: 0, behavior: 'instant' });
   }
 
   // ── Initialise / reset quiz ──
@@ -123,6 +122,8 @@
 
     const q = questionQueue[currentStep];
     const chosen = q.options[selectedIndex];
+
+    window.scrollTo({ top: 0, behavior: 'instant' });
 
     // Accumulate points
     if (chosen.points) {
