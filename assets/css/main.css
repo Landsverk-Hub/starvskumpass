@@ -48,6 +48,14 @@ h1 {
   margin-bottom: var(--sp-xl);
 }
 
+.question__subtitle {
+  font-size: var(--fs-md);
+  font-weight: 500;
+  line-height: 1.55;
+  color: var(--color-white);
+  padding-bottom: var(--sp-xl);
+}
+
   /* Typography */
   --font-family: 'Univia Pro', -apple-system, BlinkMacSystemFont, sans-serif;
   --fs-xs:   0.75rem;    /* 12px */

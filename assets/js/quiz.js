@@ -40,6 +40,7 @@
     progressFill:  document.getElementById('progress-fill'),
     progressText:  document.getElementById('progress-text'),
     questionTitle: document.getElementById('question-title'),
+    questionSubtitle: document.getElementById('question-subtitle'),
     questionOpts:  document.getElementById('question-options'),
     resultTitle:   document.getElementById('result-title'),
     resultImage:   document.getElementById('result-image-wrap'),
@@ -72,6 +73,8 @@
     els.progressText.textContent = `${num} / ${total}`;
 
     els.questionTitle.textContent = q.title;
+    els.questionSubtitle.textContent = q.subtitle || '';
+    els.questionSubtitle.style.display = q.subtitle ? '' : 'none';
 
     els.questionOpts.innerHTML = '';
     q.options.forEach((opt, i) => {
@@ -137,25 +140,43 @@
     }
   }
 
-  function findTiebreaker() {
-    const sorted = PROFILE_KEYS
-      .map((k) => ({ key: k, score: scores[k] }))
-      .sort((a, b) => b.score - a.score);
+function findTiebreaker() {
+  const sorted = PROFILE_KEYS
+    .map((k) => ({ key: k, score: scores[k] }))
+    .sort((a, b) => b.score - a.score);
 
-    const topScore = sorted[0].score;
-    const tied = sorted.filter((s) => s.score === topScore).map((s) => s.key);
+  const topScore = sorted[0].score;
+  const tied = sorted.filter((s) => s.score === topScore).map((s) => s.key);
 
-    if (tied.length <= 1) return null;
+  if (tied.length <= 1) return null;
 
-    const usedIds = questionQueue.map((q) => q.id);
-    for (const tb of tiebreakers) {
-      if (usedIds.includes(tb.id)) continue;
-      const overlap = tb.profiles.filter((p) => tied.includes(p));
-      if (overlap.length >= 2) return tb;
+  const usedIds = questionQueue.map((q) => q.id);
+
+  for (const tb of tiebreakers) {
+    if (usedIds.includes(tb.id)) continue;
+
+    // Check if this tiebreaker applies to ANY of the tied profiles
+    const anyMatch = tied.some(p => tb.profiles.includes(p));
+    
+    if (anyMatch) {
+      // Filter options to only include tied profiles
+      const filteredOptions = tb.options.filter(opt => {
+        const pointsProfile = Object.keys(opt.points)[0];
+        return tied.includes(pointsProfile);
+      });
+
+      // Return a new question object that matches the structure of regular questions
+return {
+  id: tb.id,
+  title: tb.title,
+  options: filteredOptions,
+  subtitle: tb.subtitle || ''
+  }; 
     }
-
-    return null;
   }
+
+  return null;
+}
 
   function getWinner() {
     let maxScore = -1;
