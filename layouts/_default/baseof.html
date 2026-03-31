@@ -9,9 +9,8 @@
   {{/* Preload local font */}}
   <link rel="preload" href="{{ relURL "fonts/Mostardesign-UniviaPro-Light.otf" }}" as="font" type="font/otf" crossorigin>
 
-  {{/* Main stylesheet */}}
-  {{ $style := resources.Get "css/main.css" | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ $style := resources.Get "css/main.css" | resources.ExecuteAsTemplate "css/main.css" . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
   {{/* Favicon – replace with actual */}}
   <link rel="icon" href="{{ relURL "images/favicon.png" }}" type="image/png">

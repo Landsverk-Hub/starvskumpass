@@ -4,12 +4,11 @@
 
 @font-face {
   font-family: 'Univia Pro';
-  src: url('../fonts/Mostardesign-UniviaPro-Light.otf') format('opentype');
+  src: url('{{ relURL "fonts/Mostardesign-UniviaPro-Light.otf" }}') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
-
 :root {
   /* Brand palette */
   --color-bg:       #0B4F6C;
