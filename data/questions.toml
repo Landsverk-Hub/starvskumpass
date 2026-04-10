@@ -3,106 +3,97 @@ id = 1
 title = "Kennir tú teg mest heima"
 subtitle = ""
 [[questions.options]]
+text = "Millum durandi maskinur í teknikk-rúminum við einum mátiamboði í hondini"
+points = { sigurd = 1 }
+[[questions.options]]
+text = "Aftan fyri skíggjan í einum mjúkum skrivstovustóli við fingrunum á tastaturinum, meðan tú tosar í headsetinum"
+points = { hanna = 1 }
+[[questions.options]]
 text = "Við útsýni yvir Funningsfjørð, meðan tú arbeiðir við einum rørporti og lurta eftir útvarpinum"
 points = { hilmar-hogni = 1 }
 [[questions.options]]
 text = "Í smiðjuni við einari skrúvunøgl í hondini, trygdarbrillum í lummanum og lukti av olju í hárinum"
 points = { filip = 1 }
 [[questions.options]]
-text = "Millum durandi maskinur í teknikk-rúminum við einum mátiamboði í hondini"
-points = { sigurd = 1 }
-[[questions.options]]
-text = "Tá tú lyftir blikkið frá skitsuni á iPadinum og sært, hvussu verkætlanin tekur skap á byggiplássinum"
-points = { haraldur = 1 }
-[[questions.options]]
 text = "Í einum fullum fundarrúmi, har tú greiðir frá smálutunum í verkætlanarætlanini við hjálp frá tínum PowerPointi"
 points = { marita = 1 }
 [[questions.options]]
-text = "Aftan fyri skíggjan í einum mjúkum skrivstovustóli við fingrunum á tastaturinum, meðan tú tosar í headsetinum"
-points = { hanna = 1 }
+text = "Tá tú lyftir blikkið frá skitsuni á iPadinum og sært, hvussu verkætlanin tekur skap á byggiplássinum"
+points = { haraldur = 1 }
 
 [[questions]]
 id = 2
 title = "Tríggir lutir, tú hevði tikið við tær á eina oydna oyggj (work edition)"
 subtitle = ""
 [[questions.options]]
-text = "Ein rennugravari, termokanna og eitt útvarp við góðum ljóði"
-points = { hilmar-hogni = 1 }
-[[questions.options]]
-text = "Ein amboðskassa, eykalutir og eina slitna ketildrakt"
-points = { filip = 1 }
-[[questions.options]]
-text = "Viðlíkahaldskipan, eitt mátitól og eyka sikringar"
-points = { sigurd = 1 }
+text = "Officepakkin, ein strategiætlan og eitt eintak av \"Thinking, Fast and Slow\""
+points = { marita = 1 }
 [[questions.options]]
 text = "Merkingarspray, nivelleringsamboð og ein skyggjandi trygdarhjálmur"
 points = { haraldur = 1 }
 [[questions.options]]
-text = "Officepakkin, ein strategiætlan og eitt eintak av “Thinking, Fast and Slow”"
-points = { marita = 1 }
+text = "Ein amboðskassa, eykalutir og eina slitna ketildrakt"
+points = { filip = 1 }
 [[questions.options]]
 text = "Ein stóran pakka av post-it, ein tráðleysan telefonløðara og Panodil – um ein starvsfelagi verður sjúkur"
 points = { hanna = 1 }
+[[questions.options]]
+text = "Ein rennugravari, termokanna og eitt útvarp við góðum ljóði"
+points = { hilmar-hogni = 1 }
+[[questions.options]]
+text = "Viðlíkahaldskipan, eitt mátitól og eyka sikringar"
+points = { sigurd = 1 }
 
 [[questions]]
 id = 3
 title = "Tú hevur havt ein góðan arbeiðsdag, tí:"
 subtitle = ""
 [[questions.options]]
-text = "Tú hevur fingið gjørt okkurt ítøkiligt arbeiði"
-points = { hilmar-hogni = 1 }
-[[questions.options]]
-text = "Tú hevur fingið okkurt at rigga aftur"
-points = { filip = 1 }
+text = "Tú hevur hjálpt øðrum at náa á mál við sínum uppgávum"
+points = { hanna = 1 }
 [[questions.options]]
 text = "Tú hevur hildið útbúnaðin koyrandi uttan trupulleikar"
 points = { sigurd = 1 }
 [[questions.options]]
-text = "Tú hevur fingið eina byggiætlan at hanga saman"
-points = { haraldur = 1 }
-[[questions.options]]
 text = "Tú hevur tikið eina týdningarmikla avgerð á einum fakligum grundarlagi"
 points = { marita = 1 }
 [[questions.options]]
-text = "Tú hevur hjálpt øðrum at náa á mál við sínum uppgávum"
-points = { hanna = 1 }
+text = "Tú hevur fingið gjørt okkurt ítøkiligt arbeiði"
+points = { hilmar-hogni = 1 }
+[[questions.options]]
+text = "Tú hevur fingið eina byggiætlan at hanga saman"
+points = { haraldur = 1 }
+[[questions.options]]
+text = "Tú hevur fingið okkurt at rigga aftur"
+points = { filip = 1 }
 
 [[questions]]
 id = 4
 title = "Tú skalt á skeið og hevur glett teg í fleiri mánaðir. Skeiðið eitur:"
 subtitle = ""
 [[questions.options]]
-text = "“Eingin slingur í valsinum: Salt og kavarudding við trygdini fremst”"
-points = { hilmar-hogni = 1 }
-[[questions.options]]
 text = "“Traktortøkni: Framkomnar umvælingar og ábøtur”"
 points = { filip = 1 }
 [[questions.options]]
-text = "“Tryggur rakstur: Finn skipanarfeilir og fyribyrg katastrofu”"
-points = { sigurd = 1 }
+text = "“Eingin slingur í valsinum: Salt og kavarudding við trygdini fremst”"
+points = { hilmar-hogni = 1 }
 [[questions.options]]
 text = "“Bygg eina broyting: Øk um tilfarsendurnýtsluna í byggiverkætlanum”"
 points = { haraldur = 1 }
 [[questions.options]]
-text = "“Fundir við innihaldi: Skapa framgongd í tínum tvørfakligu verkætlanum við einari greiðari fundarskrá”"
-points = { marita = 1 }
+text = "“Tryggur rakstur: Finn skipanarfeilir og fyribyrg katastrofu”"
+points = { sigurd = 1 }
 [[questions.options]]
 text = "“Hjúkla um felagsskapin: Samskipan og tænastuveiting í nútímans arbeiðsplássinum”"
 points = { hanna = 1 }
+[[questions.options]]
+text = "“Fundir við innihaldi: Skapa framgongd í tínum tvørfakligu verkætlanum við einari greiðari fundarskrá”"
+points = { marita = 1 }
 
 [[questions]]
 id = 5
 title = "Tú fært kaldasveitta við tankan um:"
 subtitle = ""
-[[questions.options]]
-text = "At vera inni á skrivstovu allan dagin"
-points = { hilmar-hogni = 1 }
-[[questions.options]]
-text = "Einum kalendara fullum av fundum"
-points = { filip = 1 }
-[[questions.options]]
-text = "Amatørurin sum pilkar í tíni skipan"
-points = { sigurd = 1 }
 [[questions.options]]
 text = "Einari verkætlan uttan greiða kós"
 points = { haraldur = 1 }
@@ -112,6 +103,15 @@ points = { marita = 1 }
 [[questions.options]]
 text = "Eitt óskipað skriviborð og 117 ósvaraðir teldupostar"
 points = { hanna = 1 }
+[[questions.options]]
+text = "Einum kalendara fullum av fundum"
+points = { filip = 1 }
+[[questions.options]]
+text = "Amatørurin sum pilkar í tíni skipan"
+points = { sigurd = 1 }
+[[questions.options]]
+text = "At vera inni á skrivstovu allan dagin"
+points = { hilmar-hogni = 1 }
 
 [[questions]]
 id = 6
@@ -127,19 +127,28 @@ points = { filip = 1 }
 text = "“Tað er ikki so farligt. Lat okkum kanna skipanina”"
 points = { sigurd = 1 }
 [[questions.options]]
-text = "“Fínt – lat okkum gera eina ætlan”"
-points = { haraldur = 1 }
-[[questions.options]]
 text = "“Lat meg fyrst finna váðametingina fram”"
 points = { marita = 1 }
 [[questions.options]]
 text = "“Lat okkum fáa yvirlit – eg savni fólkini”"
 points = { hanna = 1 }
+[[questions.options]]
+text = "“Fínt – lat okkum gera eina ætlan”"
+points = { haraldur = 1 }
 
 [[questions]]
 id = 7
 title = "Mostir hevur keypt tær eina t-shirt á eini vikuskiftisferð í Edinburgh. Hvat stendur á henni?"
 subtitle = ""
+[[questions.options]]
+text = "Certified Chaos Coordinator"
+points = { hanna = 1 }
+[[questions.options]]
+text = "Keep calm and build things"
+points = { haraldur = 1 }
+[[questions.options]]
+text = "Hope is not a strategy"
+points = { marita = 1 }
 [[questions.options]]
 text = "I like to move it, move it"
 points = { hilmar-hogni = 1 }
@@ -149,23 +158,11 @@ points = { filip = 1 }
 [[questions.options]]
 text = "Eat. Sleep. Maintain the system."
 points = { sigurd = 1 }
-[[questions.options]]
-text = "Keep calm and build things"
-points = { haraldur = 1 }
-[[questions.options]]
-text = "Hope is not a strategy"
-points = { marita = 1 }
-[[questions.options]]
-text = "Certified Chaos Coordinator"
-points = { hanna = 1 }
 
 [[questions]]
 id = 8
 title = "Tú hevur arbeitt hart við umsóknini til Landsverk. Hvat stendur í profiltekstinum á tínum CV?"
 subtitle = ""
-[[questions.options]]
-text = "“Trívist best við ítøkiligum uppgávum, har framgongd og sjónlig úrslit eru í fokus”"
-points = { hilmar-hogni = 1 }
 [[questions.options]]
 text = "“Finni feilir, loysi trupulleikar og gevist ikki, fyrrenn tað riggar”"
 points = { filip = 1 }
@@ -173,78 +170,14 @@ points = { filip = 1 }
 text = "“Tryggi støðugan rakstur og havi yvirlit yvir skipanir og samanhangir”"
 points = { sigurd = 1 }
 [[questions.options]]
+text = "“Trívist best við ítøkiligum uppgávum, har framgongd og sjónlig úrslit eru í fokus”"
+points = { hilmar-hogni = 1 }
+[[questions.options]]
+text = "“Skapi yvirlit og skipan, so gerandisdagurin glíður betur”"
+points = { hanna = 1 }
+[[questions.options]]
 text = "“Tryggi samanhang og fakliga góðsku í verkætlanum frá hugskoti til veruleika”"
 points = { haraldur = 1 }
 [[questions.options]]
 text = "“Havi greinandi tilgongd og taki avgerðir á einum fakligum grundarlagi”"
 points = { marita = 1 }
-[[questions.options]]
-text = "“Skapi yvirlit og skipan, so gerandisdagurin glíður betur”"
-points = { hanna = 1 }
-
-# # Tiebreaker questions – used when top profiles are tied
-# [[tiebreakers]]
-# id = "tb1"
-# profiles = ["haraldur", "jens"]
-# title = "Hvat veldur tú?"
-# [[tiebreakers.options]]
-# text = "Arbeiða úti í frískum lofti"
-# points = { haraldur = 2 }
-# [[tiebreakers.options]]
-# text = "Arbeiða inni í verkstøðini"
-# points = { jens = 2 }
-# 
-# [[tiebreakers]]
-# id = "tb2"
-# profiles = ["filip", "marjun"]
-# title = "Hvat veldur tú?"
-# [[tiebreakers.options]]
-# text = "Vera á byggiplássinum og síggja verkið vaksa"
-# points = { filip = 2 }
-# [[tiebreakers.options]]
-# text = "Vera á skrivstovuni og planleggja framtíðina"
-# points = { marjun = 2 }
-# 
-# [[tiebreakers]]
-# id = "tb3"
-# profiles = ["katrin", "anna"]
-# title = "Hvat veldur tú?"
-# [[tiebreakers.options]]
-# text = "Halda systemir í gangi"
-# points = { katrin = 2 }
-# [[tiebreakers.options]]
-# text = "Greiða frá og kommunikera"
-# points = { anna = 2 }
-# 
-# [[tiebreakers]]
-# id = "tb4"
-# profiles = ["haraldur", "filip"]
-# title = "Hvat veldur tú?"
-# [[tiebreakers.options]]
-# text = "Gera við hondurnar"
-# points = { haraldur = 2 }
-# [[tiebreakers.options]]
-# text = "Leiða og skipuleggja"
-# points = { filip = 2 }
-# 
-# [[tiebreakers]]
-# id = "tb5"
-# profiles = ["jens", "katrin"]
-# title = "Hvat veldur tú?"
-# [[tiebreakers.options]]
-# text = "Mekanisku verkini"
-# points = { jens = 2 }
-# [[tiebreakers.options]]
-# text = "Tey elektronisku systemini"
-# points = { katrin = 2 }
-# 
-# [[tiebreakers]]
-# id = "tb6"
-# profiles = ["marjun", "anna"]
-# title = "Hvat veldur tú?"
-# [[tiebreakers.options]]
-# text = "Halda fundir og stýra verkætlanir"
-# points = { marjun = 2 }
-# [[tiebreakers.options]]
-# text = "Skriva og kommunikera"
-# points = { anna = 2 }
