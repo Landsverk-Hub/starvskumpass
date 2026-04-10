@@ -55,16 +55,18 @@
   <div class="screen__inner">
     {{ partial "logo.html" }}
 
-    <h2 class="result__title" id="result-title">TÚ ERT FILIP!</h2>
+    <div class="result__content">
+      <div class="result__image-wrap" id="result-image-wrap">
+        {{/* Image injected via JS */}}
+      </div>
+      <div class="result__overlay">
+        <h2 class="result__title" id="result-title">TÚ ERT FILIP!</h2>
+        <p class="result__tagline" id="result-tagline"></p>
 
-    <div class="result__image-wrap" id="result-image-wrap">
-      {{/* Image injected via JS */}}
-    </div>
-
-    <p class="result__tagline" id="result-tagline"></p>
-
-    <div class="result__body" id="result-body">
-      {{/* Paragraphs injected via JS */}}
+        <div class="result__body" id="result-body">
+          {{/* Paragraphs injected via JS */}}
+        </div>
+      </div>
     </div>
 
     <div class="result__contact">
@@ -74,7 +76,10 @@
         <a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a>
         og fá meira at vita um tínar møguleikar.
       </p>
+      <p class="result__contact-text">Vit gleða okkum at hoyra frá tær!</p>
     </div>
+
+    <div class="result__code" id="result-code"></div>
 
     <button class="btn btn--outline" id="btn-restart">TAK ROYNDINA AFTUR</button>
   </div>

@@ -196,7 +196,11 @@ return {
 
   function showResult() {
     const winnerKey = getWinner();
-    const profile = profiles[winnerKey];
+    showProfile(winnerKey);
+  }
+
+  function showProfile(profileKey) {
+    const profile = profiles[profileKey];
 
     els.resultTitle.innerHTML = `TÚ ERT <span class="text-yellow">${profile.name.toUpperCase()}!</span>`;
 
@@ -208,6 +212,12 @@ return {
     els.resultBody.innerHTML = profile.paragraphs
       .map((p) => `<p>${p}</p>`)
       .join('');
+
+    // Generate random 6-char alphanumeric code
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    let code = '';
+    for (let i = 0; i < 6; i++) code += chars[Math.floor(Math.random() * chars.length)];
+    document.getElementById('result-code').textContent = code;
 
     showScreen('result');
   }
@@ -235,4 +245,10 @@ return {
       submitAnswer();
     }
   });
+  // Check for ?profile= URL param to skip directly to a result
+  const urlParams = new URLSearchParams(window.location.search);
+  const directProfile = urlParams.get('profile');
+  if (directProfile && profiles[directProfile]) {
+    showProfile(directProfile);
+  }
 })();
