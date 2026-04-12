@@ -234,6 +234,19 @@ img { max-width: 100%; display: block; }
   max-width: 340px;
 }
 
+.landing__hero-image {
+  margin-top: auto;
+  margin-bottom: var(--sp-lg);
+  width: calc(100% + var(--sp-lg) * 2);
+  margin-left: calc(-1 * var(--sp-lg));
+  pointer-events: none;
+}
+.landing__hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .landing__cta {
   margin-top: auto;
   text-align: center;
