@@ -222,7 +222,8 @@ return {
     showScreen('result');
   }
 
-  els.btnStart.addEventListener('click', () => {
+els.btnStart.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
     resetQuiz();
     renderQuestion();
     showScreen('question');
