@@ -355,8 +355,15 @@ img { max-width: 100%; display: block; }
   width: 100%;
   margin-top: var(--sp-2xl);
   margin-bottom: var(--sp-xl);
-  /* Clip the image so it doesn't cause horizontal overflow */
-  overflow: hidden;
+  /* No overflow hidden here anymore */
+}
+
+/* Add a horizontal-only clip so the image doesn't cause side-scroll */
+#screen-result .screen__inner {
+  max-width: 480px;
+  padding-left: var(--sp-lg);
+  padding-right: var(--sp-lg);
+  overflow-x: clip;
 }
 
 .result__image-wrap {
