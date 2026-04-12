@@ -345,22 +345,24 @@ img { max-width: 100%; display: block; }
 
 /* ============ RESULT ============ */
 #screen-result .screen__inner {
-  max-width: 380px;
-  padding-left: var(--sp-xl);
-  padding-right: var(--sp-xl);
+  max-width: 480px;
+  padding-left: var(--sp-lg);
+  padding-right: var(--sp-lg);
 }
+
 .result__content {
   position: relative;
   width: 100%;
-  margin-top: var(--sp-2xl);
+  margin-top: var(--sp-xl);
   margin-bottom: var(--sp-xl);
 }
+
+/* Mobile-first: image flows in document, sits above text */
 .result__image-wrap {
-  position: absolute;
-  top: -115px;
-  right: -65%;
-  width: 120%;
-  height: auto;
+  width: 85%;
+  max-width: 320px;
+  margin-left: auto;
+  margin-bottom: var(--sp-lg);
   pointer-events: none;
 }
 .result__image-wrap img {
@@ -368,6 +370,7 @@ img { max-width: 100%; display: block; }
   height: auto;
   object-fit: contain;
 }
+
 .result__overlay {
   position: relative;
   z-index: 1;
@@ -378,7 +381,7 @@ img { max-width: 100%; display: block; }
   font-weight: 800;
   line-height: 1.05;
   margin-bottom: var(--sp-sm);
-  max-width: 65%;
+  /* Full width on mobile — no more 65% cap */
 }
 .result__title .text-yellow {
   color: var(--color-yellow);
@@ -441,6 +444,28 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.15em;
   margin-bottom: var(--sp-md);
   font-family: monospace;
+}
+
+/* ============ RESULT – DESKTOP OVERLAY LAYOUT ============ */
+@media (min-width: 600px) {
+  .result__content {
+    margin-top: var(--sp-2xl);
+  }
+
+  /* Restore the overlapping image on larger screens */
+  .result__image-wrap {
+    position: absolute;
+    top: -80px;
+    right: -50%;
+    width: 110%;
+    max-width: none;
+    margin: 0;
+  }
+
+  .result__title {
+    max-width: 65%;
+    font-size: var(--fs-2xl);
+  }
 }
 
 /* ============ RESPONSIVE ============ */
