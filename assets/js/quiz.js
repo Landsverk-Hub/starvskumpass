@@ -207,7 +207,7 @@ return {
     const imgSrc = profile.image;
     els.resultImage.innerHTML = '<img src="' + imgSrc + '" alt="' + profile.name + '" loading="lazy">';
 
-    els.resultTagline.textContent = profile.tagline;
+    els.resultTagline.innerHTML = profile.tagline;
 
     els.resultBody.innerHTML = profile.paragraphs
       .map((p) => `<p>${p}</p>`)
