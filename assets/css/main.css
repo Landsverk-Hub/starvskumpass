@@ -432,27 +432,26 @@ img { max-width: 100%; display: block; }
 }
 
 .result__contact {
-  background: rgba(0,0,0,0.15);
-  border: 1px solid var(--color-yellow);
+  background: var(--color-yellow);
+  border: none;
   border-radius: var(--radius-lg);
   padding: var(--sp-xl);
   margin-bottom: var(--sp-lg);
 }
-
 .result__contact-title {
   font-size: var(--fs-lg);
   font-weight: 700;
   margin-bottom: var(--sp-sm);
-  color: var(--color-yellow);
+  color: var(--color-bg);
 }
 .result__contact-text {
   font-size: var(--fs-sm);
   line-height: 1.5;
-  color: var(--color-white);
+  color: var(--color-bg);
   margin-bottom: var(--sp-sm);
 }
 .result__contact-text a {
-  color: var(--color-yellow);
+  color: var(--color-bg);
   font-weight: 600;
 }
 
