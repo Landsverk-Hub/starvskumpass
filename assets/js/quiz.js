@@ -231,7 +231,8 @@ els.btnStart.addEventListener('click', () => {
 
   els.btnAnswer.addEventListener('click', submitAnswer);
 
-  els.btnRestart.addEventListener('click', () => {
+els.btnRestart.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
     resetQuiz();
     showScreen('landing');
   });
