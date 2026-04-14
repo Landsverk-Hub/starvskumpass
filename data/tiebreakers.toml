@@ -2,7 +2,7 @@
 id = "tb_main"
 profiles = ["hanna", "haraldur", "marita", "hilmar-hogni", "filip", "sigurd"]
 title = "Tað er ikki so lætt at seta teg í bás!"
-subtitle = "Við tínum førleikum kanst tú fara í ymiskar ættir. Lat okkum kortini royna at finna út av, hvønn veg pílurin peikar hjá tær."
+subtitle = "Við tínum førleikum kanst tú fara í ymiskar ættir. Lat okkum kortini finna út av, hvønn veg pílurin peikar hjá tær."
 question = "Tá tú byrjar uppá eina nýggja uppgávu, hvat gert tú fyrst?"
 options = [
   { text = "Byrji beinanvegin", points = { "hilmar-hogni" = 1 } },
@@ -10,5 +10,5 @@ options = [
   { text = "Kanni, hvussu ein líknandi skipan riggar", points = { "sigurd" = 1 } },
   { text = "Geri eina ætlan", points = { "haraldur" = 1 } },
   { text = "Savni saman viðkomandi kunning", points = { "marita" = 1 } },
-  { text = "Avgreiði, hvør ger hvat", points = { "hanna" = 1 } }
+  { text = "Kanni, hvør ger hvat", points = { "hanna" = 1 } }
 ]
