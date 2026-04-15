@@ -6,7 +6,7 @@ tagline = "Starvið sum <br> maskinførari<br> hóskar væl til tín."
 image = "images/profiles/hilmar-hogni.webp"
 paragraphs = [
   "Tú trívist best, tá nakað veruliga flytir seg. Fyri teg gevur arbeiðið meining, tá tú sært úrslitið beinanvegin.",
-  "Tú ert praktisk/ur, arbeiðssom/ur og ikki bangin fyri at taka fat. Har onnur tosa um loysnir, ert tú longu farin í gongd við at fremja tær.",
+  "Tú ert praktisk/ur, íðin og ikki bangin fyri at taka fat. Har onnur tosa um loysnir, ert tú longu farin í gongd við at fremja tær.",
   "Tú trívist best úti í markini, har maskinur, tempo og ítøkilig úrslit eru ein natúrligur partur av gerandisdegnum. Tað kann vera í vegaumsitingini ella innan asfalt- og skervframleiðslu."
 ]
 
@@ -17,7 +17,7 @@ role = "Smiður"
 tagline = "Starvið sum smiður hóskar væl til tín."
 image = "images/profiles/filip.webp"
 paragraphs = [
-  "Tú ert tekniskt sterkur, nágreinilig/ur og loysnsinnað/ur. Tú gevst ikki, fyrr enn tað riggar, og tú hevur eitt natúrligt forvitni fyri, hvussu skipanir og tøkni hanga saman. Fyri teg er ein trupulleiki ikki ein forðing – tað er ein avbjóðing.",
+  "Tú ert tekniskt sterk/ur, nágreinilig/ur og loysnsinnað/ur. Tú gevst ikki, fyrr enn tað riggar, og tú hevur eitt natúrligt forvitni um, hvussu skipanir og tøkni hanga saman. Fyri teg er ein trupulleiki ikki ein forðing – tað er ein avbjóðing.",
   "Tú trívist best, har tú kanst arbeiða við hondunum og fáa teknikkin at spæla – til dømis sum smiður í einum av okkara verkstøðum."
 ]
 
@@ -30,7 +30,7 @@ image = "images/profiles/sigurd.webp"
 paragraphs = [
   "Tú ert rólig/ur, álítandi og hevur gott skil á tingunum. Tú hevur gott eyga fyri skipanum og samanhangum og trívist við at tryggja, at alt koyrir, sum tað skal. Tú ert tann, sum varnast trupulleikar, áðrenn teir vísa seg.",
   "Tú trívist í leiklutum við ábyrgd av rakstri, eftirliti og tekniskum skipanum.",
-  "Tað kann til dømis vera sum maskinist ella maskinmeistari innan rakstur og viðlíkahald, ella tú kanst arbeiða við orkuumvæling av bygningum landsins."
+  "Tað kann til dømis vera sum maskinistur ella maskinmeistari innan rakstur og viðlíkahald, ella tú kanst arbeiða við orkuumvæling av bygningum landsins."
 ]
 
 [haraldur]
@@ -40,10 +40,10 @@ role = "Verkætlanarleiðari"
 tagline = "Starvið sum verkætlanarleiðari hóskar væl til tín."
 image = "images/profiles/haraldur.webp"
 paragraphs = [
-  "Tú ert skipað/ur og dugir væl at finna loysnir. Tú dugir at samstava við nógvar partar og harvið gera hugskot til veruleika. Tú trívist í samspælinum millum ætlan og praksis.",
-  "Tú hóskar væl til verkætlanir, har nakað skal skapast. Tú ert dugnalig/ur at halda yvirlit og tryggja framgongd í verkætlanini.",
+  "Tú ert skipað/ur og dugir væl at finna loysnir. Tú dugir at samstarva við nógvar partar og harvið gera hugskot til veruleika. Tú trívist í samspælinum millum ætlan og praksis.",
+  "Tú hóskar væl til verkætlanir, har nakað skal skapast. Tú ert dugnalig/ur at halda yvirlit og tryggjar framgongd í verkætlanini.",
   "Tú kanst arbeiða sum verkætlanarleiðari við ábyrgd av nýbygging ella av umvæling og viðlíkahaldi av bygningum landsins. Tað kann eisini vera innan infrakervi, við denti á planlegging av vegum, brúm og tunlum.",
-  "Tú ert ofta útbúgvin sum verkfrøðingur, byggifrøðingur ella arkitektur."
+  "Tú ert útbúgvin sum verkfrøðingur, byggifrøðingur ella arkitektur."
 ]
 
 [marita]
@@ -53,9 +53,9 @@ role = "Fulltrúi"
 tagline = "Starvið sum fulltrúi hóskar væl til tín."
 image = "images/profiles/marita.webp"
 paragraphs = [
-  "Tú ert greinandi, hugsandi og dugir væl at arbeiða við fløktum málum. Tú setur spurningar, sært samanhangir og tryggjar, at avgerðir verða tiknar á einum væl grundaðum grundarlagi.",
+  "Tú ert greinandi, hugsandi og dugir væl at arbeiða við fløktum málum. Tú setur spurningar, sært samanhangir og tryggjar, at avgerðir verða tiknar á einum hollum grundarlagi.",
   "Tú trívist í leiklutum, har yvirlit, fakligheit og haldgóðar metingar eru avgerandi.",
-  "Tíni áhugamál og útbúgving avgerða hvat tú kanst arbeiða við hjá okkum – tað kann eitt nú verða sum løgfrøðingur, controller, analytikari, við málsviðgerð, verkætlanararbeiðið ella innan HR ella samskifti."
+  "Tíni áhugamál og útbúgving avgerða hvat tú kanst arbeiða við hjá okkum – tað kann eitt nú verða sum løgfrøðingur, kontroller, greinari, ella at arbeiða innan málsviðgerð, verkætlanararbeiðið, HR ella samskifti."
 ]
 
 [hanna]

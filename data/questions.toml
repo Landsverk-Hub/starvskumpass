@@ -1,24 +1,24 @@
 [[questions]]
 id = 1
-title = "Kennir tú teg mest heima"
+title = "Hvar kennir tú teg mest heima?"
 subtitle = ""
 [[questions.options]]
-text = "Millum durandi maskinur í teknikk-rúminum við einum mátiamboði í hondini"
+text = "Millum dundrandi maskinur í teknikkrúminum við einum mátitóli í hondini"
 points = { sigurd = 1 }
 [[questions.options]]
-text = "Aftan fyri skíggjan í einum mjúkum skrivstovustóli við fingrunum á tastaturinum, meðan tú tosar í headsetinum"
+text = "Aftanfyri skíggjan í einum bleytum skrivstovustóli við fingrunum á knappaborðinum, meðan tú tosar í headset"
 points = { hanna = 1 }
 [[questions.options]]
-text = "Við útsýni yvir Funningsfjørð, meðan tú arbeiðir við einum rørporti og lurta eftir útvarpinum"
+text = "Við útsýni yvir Funningsfjørð, meðan tú arbeiðir við einum rørportri og hevur útvarpið hart frá"
 points = { hilmar-hogni = 1 }
 [[questions.options]]
-text = "Í smiðjuni við einari skrúvunøgl í hondini, trygdarbrillum í lummanum og lukti av olju í hárinum"
+text = "Í smiðjuni við einum skrúvulykli í hondini, trygdarbrillum í lummanum og deyminum av smyrjiolju í hárinum"
 points = { filip = 1 }
 [[questions.options]]
-text = "Í einum fullum fundarrúmi, har tú greiðir frá smálutunum í verkætlanarætlanini við hjálp frá tínum PowerPointi"
+text = "Í einum fullum fundarhøli, har tú í ljósinum frá PowerPoint-framløguni greiðir frá smálutunum í heildarætlanini"
 points = { marita = 1 }
 [[questions.options]]
-text = "Tá tú lyftir blikkið frá skitsuni á iPadinum og sært, hvussu verkætlanin tekur skap á byggiplássinum"
+text = "Tá tú hyggur upp av skitsuni á iPaddinum og sært, hvussu verkætlanin tekur skap á byggiplássinum "
 points = { haraldur = 1 }
 
 [[questions]]
@@ -32,7 +32,7 @@ points = { marita = 1 }
 text = "Merkingarspray, nivelleringsamboð og ein skyggjandi trygdarhjálmur"
 points = { haraldur = 1 }
 [[questions.options]]
-text = "Ein amboðskassa, eykalutir og eina slitna ketildrakt"
+text = "Ein amboðskassa, eykalutir og eina slitin ketildrakt"
 points = { filip = 1 }
 [[questions.options]]
 text = "Ein stóran pakka av post-it, ein tráðleysan telefonløðara og Panodil – um ein starvsfelagi verður sjúkur"
@@ -58,7 +58,7 @@ points = { sigurd = 1 }
 text = "Tú hevur tikið eina týdningarmikla avgerð á einum fakligum grundarlagi"
 points = { marita = 1 }
 [[questions.options]]
-text = "Tú hevur fingið gjørt okkurt ítøkiligt arbeiði"
+text = "Tú hevur gjørt okkurt ítøkiligt arbeiði"
 points = { hilmar-hogni = 1 }
 [[questions.options]]
 text = "Tú hevur fingið eina byggiætlan at hanga saman"
@@ -107,7 +107,7 @@ points = { hanna = 1 }
 text = "Einum kalendara fullum av fundum"
 points = { filip = 1 }
 [[questions.options]]
-text = "Amatørurin sum pilkar í tíni skipan"
+text = "Amatørurinum, sum pilkar í tíni skipan"
 points = { sigurd = 1 }
 [[questions.options]]
 text = "At vera inni á skrivstovu allan dagin"
@@ -173,10 +173,10 @@ points = { sigurd = 1 }
 text = "“Trívist best við ítøkiligum uppgávum, har framgongd og sjónlig úrslit eru í fokus”"
 points = { hilmar-hogni = 1 }
 [[questions.options]]
-text = "“Skapi yvirlit og skipan, so gerandisdagurin glíður betur”"
+text = "“Skapi yvirlit og góðar mannagongdir, so gerandisdagurin glíður betur”"
 points = { hanna = 1 }
 [[questions.options]]
-text = "“Tryggi samanhang og fakliga góðsku í verkætlanum frá hugskoti til veruleika”"
+text = "“Tryggi samanhang og fakliga góðsku í verkætlanum – frá hugskoti til veruleika”"
 points = { haraldur = 1 }
 [[questions.options]]
 text = "“Havi greinandi tilgongd og taki avgerðir á einum fakligum grundarlagi”"
