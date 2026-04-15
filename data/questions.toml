@@ -107,7 +107,7 @@ points = { hanna = 1 }
 text = "Einum kalendara fullum av fundum"
 points = { filip = 1 }
 [[questions.options]]
-text = "Amatørurinum, sum pilkar í tíni skipan"
+text = "Amatørinum, sum pilkar í tíni skipan"
 points = { sigurd = 1 }
 [[questions.options]]
 text = "At vera inni á skrivstovu allan dagin"
