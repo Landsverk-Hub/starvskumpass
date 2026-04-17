@@ -420,7 +420,7 @@ img { max-width: 100%; display: block; }
   color: var(--color-yellow);
   line-height: 1.35;
   margin-bottom: var(--sp-xl);
-  max-width: 70%;
+  max-width: 50%;
 }
 
 .result__body {
