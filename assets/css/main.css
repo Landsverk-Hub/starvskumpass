@@ -222,6 +222,9 @@ img { max-width: 100%; display: block; }
   line-height: 1.05;
   margin-bottom: var(--sp-xl);
 }
+.landing__title-line {
+  display: block;
+}
 .text-yellow {
   color: var(--color-yellow);
 }
@@ -432,11 +435,15 @@ img { max-width: 100%; display: block; }
 }
 
 .result__contact {
+  position: relative;
+  z-index: 2;
   background: var(--color-yellow);
+  background-color: var(--color-yellow);
   border: none;
   border-radius: var(--radius-lg);
   padding: var(--sp-xl);
   margin-bottom: var(--sp-lg);
+  opacity: 1;
 }
 .result__contact-title {
   font-size: var(--fs-lg);
@@ -466,30 +473,36 @@ img { max-width: 100%; display: block; }
 }
 
 @media (min-width: 600px) {
-  .landing__title {
-    font-size: 3.5rem;
-  }
-  .question__title {
-    font-size: var(--fs-3xl);
-  }
-  .result__title {
-    font-size: var(--fs-2xl);
-  }
   .screen__inner {
     max-width: 720px;
     padding: var(--sp-3xl) var(--sp-xl);
   }
+
+  /* Landing title: scales up with the container so the yellow block
+     wraps to 3 lines (HARALDUR, / MARITA / ELLA FILIP?) like mobile. */
+  .landing__title {
+    font-size: clamp(3.5rem, 9vw, 5rem);
+    line-height: 1.02;
+    letter-spacing: -0.01em;
+  }
+
+  /* Subtitle: larger, wraps naturally to two lines */
+  .landing__subtitle {
+    font-size: var(--fs-xl);
+    max-width: 540px;
+    line-height: 1.35;
+  }
+
+  .question__title {
+    font-size: var(--fs-3xl);
+  }
+
+  /* Result screen matches landing/question width */
   #screen-result .screen__inner {
+    max-width: 720px;
+    padding-left: var(--sp-xl);
+    padding-right: var(--sp-xl);
     overflow-x: visible;
-  }
-  .result__image-wrap {
-    top: -100px;
-    right: -40%;
-    width: 100%;
-    max-width: none;
-  }
-  .result__content {
-    overflow: visible;
   }
 }
 
@@ -497,4 +510,16 @@ img { max-width: 100%; display: block; }
   .screen__inner {
     max-width: 860px;
   }
+  #screen-result .screen__inner {
+    max-width: 860px;
+  }
+
+  .landing__title {
+    font-size: clamp(5rem, 7.5vw, 6rem);
+  }
+  .landing__subtitle {
+    font-size: var(--fs-2xl);
+    max-width: 640px;
+  }
+
 }
