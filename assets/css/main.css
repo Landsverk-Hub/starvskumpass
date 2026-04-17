@@ -504,22 +504,17 @@ img { max-width: 100%; display: block; }
     padding-right: var(--sp-xl);
     overflow-x: visible;
   }
+
+  .result__contact {
+    max-width: 60%;
+  }
+  #result-body {
+    max-width: 60%
+  }
+
+  .result__image-wrap {
+    top: -100px;
+    max-width: initial;
+  }
 }
 
-@media (min-width: 1024px) {
-  .screen__inner {
-    max-width: 860px;
-  }
-  #screen-result .screen__inner {
-    max-width: 860px;
-  }
-
-  .landing__title {
-    font-size: clamp(5rem, 7.5vw, 6rem);
-  }
-  .landing__subtitle {
-    font-size: var(--fs-2xl);
-    max-width: 640px;
-  }
-
-}
