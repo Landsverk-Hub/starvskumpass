@@ -476,6 +476,7 @@ img { max-width: 100%; display: block; }
     font-size: var(--fs-2xl);
   }
   .screen__inner {
+    max-width: 720px;
     padding: var(--sp-3xl) var(--sp-xl);
   }
   #screen-result .screen__inner {
@@ -489,5 +490,11 @@ img { max-width: 100%; display: block; }
   }
   .result__content {
     overflow: visible;
+  }
+}
+
+@media (min-width: 1024px) {
+  .screen__inner {
+    max-width: 860px;
   }
 }
