@@ -472,7 +472,7 @@ img { max-width: 100%; display: block; }
   font-family: monospace;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .screen__inner {
     max-width: 720px;
     padding: var(--sp-3xl) var(--sp-xl);
@@ -489,7 +489,7 @@ img { max-width: 100%; display: block; }
   /* Subtitle: larger, wraps naturally to two lines */
   .landing__subtitle {
     font-size: var(--fs-xl);
-    max-width: 540px;
+    max-width: 720px;
     line-height: 1.35;
   }
 
@@ -509,12 +509,16 @@ img { max-width: 100%; display: block; }
     max-width: 60%;
   }
   #result-body {
-    max-width: 60%
+    max-width: 55%
   }
 
   .result__image-wrap {
     top: -100px;
     max-width: initial;
+  }
+
+  .result__tagline {
+    max-width: 60%;
   }
 }
 
