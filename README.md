@@ -1,9 +1,9 @@
-# Landsverk Starvsroynd 
+# Landsverk Starvskumpass
 
 ## Structure
 
 ```
-starvsroynd/
+starvskumpass/
 ├── hugo.toml                    
 ├── assets/
 │   ├── css/main.css             
